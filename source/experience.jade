@@ -1,0 +1,30 @@
+doctype html
+html(lang='en')
+  head
+    include partials/head
+  body
+    include partials/main-nav
+    header
+      img.profile-image(src='https://www.gravatar.com/avatar/5b116beaa14acdb21cf5f33ecdd32be2', alt='My face!')
+      h1.tag.name Hello, I’m Anthony.
+      p.tag.location My home is Thassos, Greece.
+    main.flex
+      div.card
+        h2 Background
+        p
+          | I’m an aspiring web designer who loves everything about the web. I’m excited to bring my life experience to the process of building fantastic looking websites.
+        p I'm always interested in expanding my skills.
+      div.card
+        h2 Goals
+        p
+          | I want to master the process of building web sites and increase my knowledge, skills and abilities in:
+        ul.skills
+          li HTML
+          li CSS
+          li JavaScript
+          li JADE / PUG
+          li SASS / SCSS
+        p
+          | I am working for a web design firm helping clients create an impressive online presence and increase the turisim to the island of Thassos.
+    footer
+      include partials/footer
