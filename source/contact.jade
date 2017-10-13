@@ -2,25 +2,32 @@ doctype html
 html(lang='en')
   head
     include partials/head
-    link(rel='stylesheet', href='flip.css')
   body
     include partials/main-nav
     script active_menu_item("contact")
     header
       include partials/header
     main.flex
-
-      a(href="anthony.vcf" download)
-        div.flip-container(title="Click Me to Download")
-          div.flipper
-            div.front
-              img.bcard(src="images/contact_card/front.jpg", alt="The front of my contact card")
-            div
-            div.back
-              img.bcard(src="images/contact_card/back.jpg", alt="The back of my contact card")
-            div
-          div
-        div
+      div.card
+        h1 Contact Me!
+        p Feel free<small><sup>*</sup></small> to contact me! 
+        ul.contact
+          li
+            span Call me: 
+            a(href="tel:+30-6948688704") +30 69486 88704
+          li
+            span Email me: 
+            a(href="mailto:anthonyveaudry@gmail.com?Subject=I%20Found%20Your%20Website!") anthonyveaudry@gmail.com
+          li
+            span Folow me on Twiter: 
+            a(href="https://twitter.com/anthonyveaudry") @anthonyveaudry
+          li
+            span Befrend me on Facebook: 
+            a(href="https://www.facebook.com/anthonyveaudry") @anthonyveaudry
+          li
+            span Critique me on Github: 
+            a(href="https://github.com/anthony0030") @anthony0030
 
     footer
       include partials/footer
+      span <small><sup>*</sup>The cost of the contacting is set by your I.S.P. !</small>
