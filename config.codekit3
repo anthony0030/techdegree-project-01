@@ -21,12 +21,6 @@
 		"oAP": "\/build\/build",
 		"oF": 0
 		},
-	"\/old": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/old",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
