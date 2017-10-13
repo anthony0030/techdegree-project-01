@@ -13,6 +13,6 @@ function showDivs(n) {
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";  
   }
-  document.getElementById("country").innerHTML = x[slideIndex-1].name
+  document.getElementById("country").innerHTML = x[slideIndex-1].title
   x[slideIndex-1].style.display = "block";  
 }

@@ -4,19 +4,19 @@ html(lang='en')
     include partials/head
     script(src="js/slideshow.js")
   body
-    headder
     include partials/main-nav
     script active_menu_item("photos")
     main.flex
       div.slideshow
         h1.cool_text.photo_banner_top Places I have Been!
         div
-          img.slide(src='images/places/greece.jpg', name="Greece", style='display:block')
-          img.slide(src='images/places/amsterdam.jpg', name="Amsterdam", style='display:none')
-          img.slide(src='images/places/south_africa.jpg', name="South Africa", style='display:none')
-          img.slide(src='images/places/cyprus.jpg', name="Cyprus", style='display:none')
-          img.slide(src='images/places/berlin.jpg', name="Berlin", style='display:none')
-          img.slide(src='images/places/istanbul.jpg', name="Istanbul <small>Airport</small>", style='display:none')
+          img.slide(src='images/places/greece.jpg', alt="Photo Of ", title="Greece", style='display:block')
+          img.slide(src='images/places/amsterdam.jpg', alt="Photo Of Amsterdam", title="Amsterdam", style='display:none')
+          img.slide(src='images/places/south_africa.jpg', alt="Photo Of South Africa", title="South Africa", style='display:none')
+          img.slide(src='images/places/cyprus.jpg', alt="Photo Of Cyprus", title="Cyprus", style='display:none')
+          img.slide(src='images/places/london.jpg', alt="Photo Of London", title="London", style='display:none')
+          img.slide(src='images/places/berlin.jpg', alt="Photo Of Berlin", title="Berlin", style='display:none')
+          img.slide(src='images/places/istanbul.jpg', alt="Photo Of Istanbul", title="Istanbul <small>Airport</small>", style='display:none')
         button(onclick="plusDivs(1)").fright.photo_button_next &#10095;
         button(onclick="plusDivs(-1)").fleft.photo_button_previus &#10094;
         div.photo_banner_bottom#country Greece
