@@ -15,6 +15,12 @@
 		"oAP": "\/docs\/.gitignore",
 		"oF": 0
 		},
+	"\/docs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/docs\/docs",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
