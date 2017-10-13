@@ -27,6 +27,24 @@
 		"oAP": "\/build\/old",
 		"oF": 0
 		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/build\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/source\/anthony.vcf": {
 		"ft": 8192,
 		"oA": 2,
@@ -504,6 +522,19 @@
 		"oAP": "\/build\/photos.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/source\/styles.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		}
 	},
 "hooks": [
