@@ -27,6 +27,12 @@
 		"oAP": "\/build\/old",
 		"oF": 0
 		},
+	"\/source\/anthony.vcf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/anthony.vcf",
+		"oF": 0
+		},
 	"\/source\/contact.jade": {
 		"cOD": 1,
 		"ft": 512,
@@ -42,6 +48,39 @@
 		"oAP": "\/build\/experience.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/source\/flip.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/flip.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/images\/contact_card\/back.jpg": {
+		"ft": 16384,
+		"iS": 954853,
+		"oA": 0,
+		"oAP": "\/build\/images\/contact_card\/back.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/images\/contact_card\/front.jpg": {
+		"ft": 16384,
+		"iS": 131072,
+		"oA": 0,
+		"oAP": "\/build\/images\/contact_card\/front.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/images\/github.svg": {
 		"ft": 2097152,
@@ -103,6 +142,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/images\/places\/Istanbul.jpg": {
+		"ft": 16384,
+		"iS": 127155,
+		"oA": 0,
+		"oAP": "\/build\/images\/places\/Istanbul.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/images\/places\/south_africa.jpg": {
 		"ft": 16384,
 		"iS": 11569,
@@ -151,29 +200,11 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/source\/partials\/footer.jade": {
-		"cOD": 1,
-		"ft": 512,
+	"\/source\/partials": {
+		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/build\/partials\/footer.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/partials\/head.jade": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/partials\/head.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/partials\/main-nav.jade": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/build\/partials\/main-nav.html",
-		"oF": 0,
-		"oS": 0
+		"oAP": "\/build\/partials",
+		"oF": 0
 		},
 	"\/source\/photos.jade": {
 		"cOD": 1,
@@ -206,7 +237,7 @@
 	"displayValue": "techdegree-project-1",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ron",
-	"lastBuiltDate": 529574001
+	"lastBuiltDate": 529582107
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2176,7 +2207,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/old",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/old, \/source\/partials",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",
