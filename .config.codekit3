@@ -15,12 +15,6 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -490,7 +484,7 @@
 		"oA": 0,
 		"oAP": "\/build\/js\/script.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/source\/js\/slideshow.js": {
@@ -540,7 +534,7 @@
 	"displayValue": "techdegree-project-1",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ron",
-	"lastBuiltDate": 529598729
+	"lastBuiltDate": 529606925
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1932,7 +1926,7 @@
 	"esLintSourceType": 0,
 	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
-	"hideConfigFile": 0,
+	"hideConfigFile": 1,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
