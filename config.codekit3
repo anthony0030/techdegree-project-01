@@ -63,6 +63,56 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/source\/images\/places\/amsterdam.jpg": {
+		"ft": 16384,
+		"iS": 430585,
+		"oA": 0,
+		"oAP": "\/build\/images\/places\/amsterdam.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/images\/places\/berlin.jpg": {
+		"ft": 16384,
+		"iS": 30249,
+		"oA": 0,
+		"oAP": "\/build\/images\/places\/berlin.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/images\/places\/cyprus.jpg": {
+		"ft": 16384,
+		"iS": 7943,
+		"oA": 0,
+		"oAP": "\/build\/images\/places\/cyprus.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/images\/places\/greece.jpg": {
+		"ft": 16384,
+		"iS": 65327,
+		"oA": 0,
+		"oAP": "\/build\/images\/places\/greece.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/images\/places\/south_africa.jpg": {
+		"ft": 16384,
+		"iS": 11569,
+		"oA": 0,
+		"oAP": "\/build\/images\/places\/south_africa.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/images\/thassos.jpg": {
 		"ft": 16384,
 		"iS": 65327,
@@ -156,7 +206,7 @@
 	"displayValue": "techdegree-project-1",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ron",
-	"lastBuiltDate": 529511098
+	"lastBuiltDate": 529574001
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

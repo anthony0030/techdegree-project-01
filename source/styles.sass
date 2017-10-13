@@ -164,6 +164,10 @@ a
     margin: 40px auto
 
 //custom
+.slideshow
+  width: 100%
+  height: 20%
+  position: relative
 
 .fleft
   float: left
@@ -171,6 +175,61 @@ a
 .fright
   float: right
 
-.photo_button
-  margin-top: 10%
+.photo_button_next
+  right: 10%
+
+.photo_button_previus
+  left: 10%
+
+.photo_button_previus,
+.photo_button_next
+  top: 40%
   font-size: 5em
+  background-color: transparent
+  border: 0
+  position: absolute
+  z-index: 100
+  width: 50px
+  height: 100px
+
+  &:hover
+    color: white
+
+  &:focus
+    outline-color: transparent
+    outline: 0
+  &:active
+    font-size: 4.5em
+
+.clearfix
+  clear: both
+
+.mySlides
+  width: 100%
+  height: 30%
+
+
+.photo_banner_top,
+.photo_button_previus,
+.photo_button_next,
+.photo_banner_bottom
+  z-index: 100
+
+.cool_text
+  color: white
+  font-family: "Indie Flower"
+
+.photo_banner_top
+  position: absolute
+  z-index: 100
+  width: 100%
+  top: 5%
+  height: 40px
+  z-index: 100
+
+.photo_banner_bottom
+  font-size: 26px
+  color: white
+  background-color: rgba(0,0,0,1);
+  position: absolute
+  width: 100%
