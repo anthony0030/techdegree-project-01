@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Anthony Veaudry's Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src="js/slideshow.js"></script>
+  </head>
+  <body>
+    <nav class="main-nav">
+      <ul class="nav">
+        <li class="name">Anthony Veaudry</li>
+        <li><a href="index.html" id="home">Home</a></li>
+        <li><a href="experience.html" id="experience">Experience</a></li>
+        <li><a href="photos.html" id="photos">Photos</a></li>
+        <li><a href="contact.html" id="contact">Contact</a></li>
+      </ul>
+    </nav>
+    <script>active_menu_item("photos")</script>
+    <main class="flex">
+      <div class="slideshow">
+        <h1 class="cool_text photo_banner_top">Places I have Been!</h1>
+        <div><img src="images/places/greece.jpg" alt="Photo Of " title="Greece" style="display:block" class="slide"><img src="images/places/amsterdam.jpg" alt="Photo Of Amsterdam" title="Amsterdam" style="display:none" class="slide"><img src="images/places/south_africa.jpg" alt="Photo Of South Africa" title="South Africa" style="display:none" class="slide"><img src="images/places/cyprus.jpg" alt="Photo Of Cyprus" title="Cyprus" style="display:none" class="slide"><img src="images/places/london.jpg" alt="Photo Of London" title="London" style="display:none" class="slide"><img src="images/places/berlin.jpg" alt="Photo Of Berlin" title="Berlin" style="display:none" class="slide"><img src="images/places/istanbul.jpg" alt="Photo Of Istanbul" title="Istanbul &lt;small&gt;Airport&lt;/small&gt;" style="display:none" class="slide"></div>
+        <button onclick="plusDivs(1)" class="fright photo_button_next">&#10095;</button>
+        <button onclick="plusDivs(-1)" class="fleft photo_button_previus">&#10094;</button>
+        <div id="country" class="photo_banner_bottom">Greece</div>
+      </div>
+    </main>
+    <footer>
+      <aside>
+        <ul>
+          <li><a href="https://twitter.com/anthonyveaudry" class="social twitter">Twitter</a></li>
+          <li><a href="https://www.linkedin.com/in/anthonyveaudry/" class="social linkedin">LinkedIn</a></li>
+          <li><a href="https://github.com/anthony0030" class="social github">Github</a></li>
+        </ul>
+        <p class="copyright">Copyright 2017 | Anthony Veaudry</p>
+      </aside>
+    </footer>
+  </body>
+</html>

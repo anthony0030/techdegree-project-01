@@ -1,0 +1,1 @@
+function active_menu_item(e){document.getElementById(e).classList.add("active")}
