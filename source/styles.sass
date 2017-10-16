@@ -173,9 +173,6 @@ a
     margin: 40px auto
 
 @media screen and (max-width: 720px)
-  .photo_button_previous,
-  .photo_button_next
-    font-size: 4em !important
   .photo_banner_top
     top: 20% !important
     font-size: 1.5em
@@ -202,6 +199,8 @@ a
 
 .photo_button_previous,
 .photo_button_next
+  @media screen and (max-width: 720px)
+    font-size: 4em !important
   padding: 0
   top: 40%
   font-size: 5em

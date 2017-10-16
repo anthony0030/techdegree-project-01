@@ -168,9 +168,6 @@ a.social:hover {
     margin: 40px auto; } }
 
 @media screen and (max-width: 720px) {
-  .photo_button_previous,
-  .photo_button_next {
-    font-size: 4em !important; }
   .photo_banner_top {
     top: 20% !important;
     font-size: 1.5em; }
@@ -207,6 +204,10 @@ a.social:hover {
   height: 100px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgba(255, 255, 255, 0.6); }
+  @media screen and (max-width: 720px) {
+    .photo_button_previous,
+    .photo_button_next {
+      font-size: 4em !important; } }
   .photo_button_previous:hover,
   .photo_button_next:hover {
     color: white; }
