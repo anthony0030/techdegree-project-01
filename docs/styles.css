@@ -168,9 +168,6 @@ a.social:hover {
     margin: 40px auto; } }
 
 @media screen and (max-width: 720px) {
-  .photo_banner_top {
-    top: 20% !important;
-    font-size: 1.5em; }
   footer {
     margin-top: 20px; } }
 
@@ -245,6 +242,10 @@ a.social:hover {
   height: 40px;
   z-index: 100;
   text-shadow: 2px 2px #cecece; }
+  @media screen and (max-width: 720px) {
+    .photo_banner_top {
+      top: 20% !important;
+      font-size: 1.5em; } }
 
 .photo_banner_bottom {
   font-size: 26px;
