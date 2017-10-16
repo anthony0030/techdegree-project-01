@@ -11,9 +11,9 @@
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/docs\/.gitignore",
-		"oF": 0
+		"oF": 1
 		},
 	"\/docs": {
 		"ft": 65536,
@@ -29,9 +29,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/docs\/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -540,7 +540,7 @@
 	"displayValue": "techdegree-project-1",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ron",
-	"lastBuiltDate": 529607922
+	"lastBuiltDate": 529826839
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
