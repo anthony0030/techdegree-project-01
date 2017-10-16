@@ -425,12 +425,12 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/images\/places\/Istanbul.jpg": {
+	"\/source\/images\/places\/istanbul.jpg": {
 		"ft": 16384,
-		"iS": 127155,
+		"iS": 288512,
 		"oA": 0,
-		"oAP": "\/docs\/images\/places\/Istanbul.jpg",
-		"oF": 0,
+		"oAP": "\/docs\/images\/places\/istanbul.jpg",
+		"oF": 3,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -540,7 +540,7 @@
 	"displayValue": "techdegree-project-1",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ron",
-	"lastBuiltDate": 529826839
+	"lastBuiltDate": 529829391
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
