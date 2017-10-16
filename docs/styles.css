@@ -168,18 +168,8 @@ a.social:hover {
     margin: 40px auto; } }
 
 @media screen and (max-width: 720px) {
-  .photo_button_previus,
-  .photo_button_next {
-    font-size: 4em !important; }
-  .photo_banner_top {
-    top: 20% !important;
-    font-size: 1.5em; }
   footer {
-    margin-top: 20px; }
-  .photo_button_next {
-    right: -5% !important; }
-  .photo_button_previus {
-    left: -5% !important; } }
+    margin-top: 20px; } }
 
 .slideshow {
   width: 100%;
@@ -195,11 +185,12 @@ a.social:hover {
 .photo_button_next {
   right: 10%; }
 
-.photo_button_previus {
+.photo_button_previous {
   left: 10%; }
 
-.photo_button_previus,
+.photo_button_previous,
 .photo_button_next {
+  padding: 0;
   top: 40%;
   font-size: 5em;
   background-color: transparent;
@@ -210,14 +201,18 @@ a.social:hover {
   height: 100px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgba(255, 255, 255, 0.6); }
-  .photo_button_previus:hover,
+  @media screen and (max-width: 720px) {
+    .photo_button_previous,
+    .photo_button_next {
+      font-size: 4em !important; } }
+  .photo_button_previous:hover,
   .photo_button_next:hover {
     color: white; }
-  .photo_button_previus:focus,
+  .photo_button_previous:focus,
   .photo_button_next:focus {
     outline-color: transparent;
     outline: 0; }
-  .photo_button_previus:active,
+  .photo_button_previous:active,
   .photo_button_next:active {
     font-size: 4.5em; }
 
@@ -230,7 +225,7 @@ a.social:hover {
   min-height: 200px; }
 
 .photo_banner_top,
-.photo_button_previus,
+.photo_button_previous,
 .photo_button_next,
 .photo_banner_bottom {
   z-index: 100; }
@@ -247,6 +242,10 @@ a.social:hover {
   height: 40px;
   z-index: 100;
   text-shadow: 2px 2px #cecece; }
+  @media screen and (max-width: 720px) {
+    .photo_banner_top {
+      top: 20% !important;
+      font-size: 1.5em; } }
 
 .photo_banner_bottom {
   font-size: 26px;

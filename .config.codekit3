@@ -39,12 +39,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/source\/anthony.vcf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/docs\/anthony.vcf",
-		"oF": 0
-		},
 	"\/source\/contact.jade": {
 		"cOD": 1,
 		"ft": 512,
@@ -60,26 +54,6 @@
 		"oAP": "\/docs\/experience.html",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/source\/images\/contact_card\/back.jpg": {
-		"ft": 16384,
-		"iS": 954853,
-		"oA": 0,
-		"oAP": "\/docs\/images\/contact_card\/back.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/source\/images\/contact_card\/front.jpg": {
-		"ft": 16384,
-		"iS": 131072,
-		"oA": 0,
-		"oAP": "\/docs\/images\/contact_card\/front.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
 		},
 	"\/source\/images\/favicon\/android-icon-144x144.png": {
 		"ft": 32768,
@@ -540,7 +514,7 @@
 	"displayValue": "techdegree-project-1",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ron",
-	"lastBuiltDate": 529830124
+	"lastBuiltDate": 529837588
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
