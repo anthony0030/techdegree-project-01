@@ -175,11 +175,7 @@ a.social:hover {
     top: 20% !important;
     font-size: 1.5em; }
   footer {
-    margin-top: 20px; }
-  .photo_button_next {
-    right: -5% !important; }
-  .photo_button_previous {
-    left: -5% !important; } }
+    margin-top: 20px; } }
 
 .slideshow {
   width: 100%;
@@ -200,6 +196,7 @@ a.social:hover {
 
 .photo_button_previous,
 .photo_button_next {
+  padding: 0;
   top: 40%;
   font-size: 5em;
   background-color: transparent;
