@@ -540,7 +540,7 @@
 	"displayValue": "techdegree-project-1",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ron",
-	"lastBuiltDate": 529829391
+	"lastBuiltDate": 529830124
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1931,7 +1931,7 @@
 		},
 	"esLintSourceType": 0,
 	"externalServerAddress": "http:\/\/localhost:8888",
-	"gitIgnoreBuildFolder": 1,
+	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 1,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
