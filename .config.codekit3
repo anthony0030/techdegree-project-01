@@ -2177,9 +2177,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/docs\/js\/script.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
@@ -2231,7 +2231,7 @@
 	"displayValue": "techdegree-project-1",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ron",
-	"lastBuiltDate": 533637243
+	"lastBuiltDate": 533639728
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
