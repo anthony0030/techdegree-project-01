@@ -6,19 +6,20 @@ html(lang='en')
   body
     include partials/main-nav
     script active_menu_item("photos")
-    main.flex
-      div.slideshow
-        h1.cool_text.photo_banner_top Places I have Been!
-        div
-          img.slide(src='images/places/greece.jpg', alt="Photo Of ", title="Greece", style='display:block')
-          img.slide(src='images/places/amsterdam.jpg', alt="Photo Of Amsterdam", title="Amsterdam", style='display:none')
-          img.slide(src='images/places/south_africa.jpg', alt="Photo Of South Africa", title="South Africa", style='display:none')
-          img.slide(src='images/places/cyprus.jpg', alt="Photo Of Cyprus", title="Cyprus", style='display:none')
-          img.slide(src='images/places/london.jpg', alt="Photo Of London", title="London", style='display:none')
-          img.slide(src='images/places/berlin.jpg', alt="Photo Of Berlin", title="Berlin", style='display:none')
-          img.slide(src='images/places/istanbul.jpg', alt="Photo Of Istanbul", title="Istanbul <small>Airport</small>", style='display:none')
-        button(onclick="plusDivs(-1)").photo_button_previous &#10094;
-        button(onclick="plusDivs(1)").photo_button_next &#10095;
-        div.photo_banner_bottom#country Greece
+    div.animsition
+      main.flex
+        div.slideshow
+          h1.cool_text.photo_banner_top Places I have Been!
+          div
+            img.slide(src='images/places/greece.jpg', alt="Photo Of ", title="Greece", style='display:block')
+            img.slide(src='images/places/amsterdam.jpg', alt="Photo Of Amsterdam", title="Amsterdam", style='display:none')
+            img.slide(src='images/places/south_africa.jpg', alt="Photo Of South Africa", title="South Africa", style='display:none')
+            img.slide(src='images/places/cyprus.jpg', alt="Photo Of Cyprus", title="Cyprus", style='display:none')
+            img.slide(src='images/places/london.jpg', alt="Photo Of London", title="London", style='display:none')
+            img.slide(src='images/places/berlin.jpg', alt="Photo Of Berlin", title="Berlin", style='display:none')
+            img.slide(src='images/places/istanbul.jpg', alt="Photo Of Istanbul", title="Istanbul <small>Airport</small>", style='display:none')
+          button(onclick="plusDivs(-1)").photo_button_previous &#10094;
+          button(onclick="plusDivs(1)").photo_button_next &#10095;
+          div.photo_banner_bottom#country Greece
     footer
       include partials/footer

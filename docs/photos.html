@@ -4,9 +4,12 @@
     <meta charset="utf-8">
     <title>Anthony Veaudry's Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bower_components/animsition/dist/css/animsition.min.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/animsition/dist/js/animsition.min.js"></script>
     <script src="js/script.js"></script>
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -30,23 +33,25 @@
   <body>
     <nav class="main-nav">
       <ul class="nav">
-        <li class="name"> <a href="index.html">Anthony Veaudry</a></li>
-        <li><a href="index.html" id="home">Home</a></li>
-        <li><a href="experience.html" id="experience">Experience</a></li>
-        <li><a href="photos.html" id="photos">Photos</a></li>
-        <li><a href="contact.html" id="contact">Contact</a></li>
+        <li class="name"> <a href="index.html" class="animsition-link">Anthony Veaudry</a></li>
+        <li><a href="index.html" id="home" class="animsition-link"> Home</a></li>
+        <li><a href="experience.html" id="experience" class="animsition-link"> Experience</a></li>
+        <li><a href="photos.html" id="photos" class="animsition-link"> Photos</a></li>
+        <li><a href="contact.html" id="contact" class="animsition-link"> Contact</a></li>
       </ul>
     </nav>
     <script>active_menu_item("photos")</script>
-    <main class="flex">
-      <div class="slideshow">
-        <h1 class="cool_text photo_banner_top">Places I have Been!</h1>
-        <div><img src="images/places/greece.jpg" alt="Photo Of " title="Greece" style="display:block" class="slide"><img src="images/places/amsterdam.jpg" alt="Photo Of Amsterdam" title="Amsterdam" style="display:none" class="slide"><img src="images/places/south_africa.jpg" alt="Photo Of South Africa" title="South Africa" style="display:none" class="slide"><img src="images/places/cyprus.jpg" alt="Photo Of Cyprus" title="Cyprus" style="display:none" class="slide"><img src="images/places/london.jpg" alt="Photo Of London" title="London" style="display:none" class="slide"><img src="images/places/berlin.jpg" alt="Photo Of Berlin" title="Berlin" style="display:none" class="slide"><img src="images/places/istanbul.jpg" alt="Photo Of Istanbul" title="Istanbul &lt;small&gt;Airport&lt;/small&gt;" style="display:none" class="slide"></div>
-        <button onclick="plusDivs(-1)" class="photo_button_previous">&#10094;</button>
-        <button onclick="plusDivs(1)" class="photo_button_next">&#10095;</button>
-        <div id="country" class="photo_banner_bottom">Greece</div>
-      </div>
-    </main>
+    <div class="animsition">
+      <main class="flex">
+        <div class="slideshow">
+          <h1 class="cool_text photo_banner_top">Places I have Been!</h1>
+          <div><img src="images/places/greece.jpg" alt="Photo Of " title="Greece" style="display:block" class="slide"><img src="images/places/amsterdam.jpg" alt="Photo Of Amsterdam" title="Amsterdam" style="display:none" class="slide"><img src="images/places/south_africa.jpg" alt="Photo Of South Africa" title="South Africa" style="display:none" class="slide"><img src="images/places/cyprus.jpg" alt="Photo Of Cyprus" title="Cyprus" style="display:none" class="slide"><img src="images/places/london.jpg" alt="Photo Of London" title="London" style="display:none" class="slide"><img src="images/places/berlin.jpg" alt="Photo Of Berlin" title="Berlin" style="display:none" class="slide"><img src="images/places/istanbul.jpg" alt="Photo Of Istanbul" title="Istanbul &lt;small&gt;Airport&lt;/small&gt;" style="display:none" class="slide"></div>
+          <button onclick="plusDivs(-1)" class="photo_button_previous">&#10094;</button>
+          <button onclick="plusDivs(1)" class="photo_button_next">&#10095;</button>
+          <div id="country" class="photo_banner_bottom">Greece</div>
+        </div>
+      </main>
+    </div>
     <footer>
       <aside>
         <ul>

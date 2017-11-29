@@ -5,28 +5,29 @@ html(lang='en')
   body
     include partials/main-nav
     script active_menu_item("contact")
-    header
-      include partials/header
-    main.flex
-      div.card
-        h1 Contact Me!
-        p Feel free<small><sup>*</sup></small> to contact me! 
-        ul.contact
-          li
-            span Call me: 
-            a(href="tel:+30-6948688704") +30 69486 88704
-          li
-            span Email me: 
-            a(href="mailto:anthonyveaudry@gmail.com?Subject=I%20Found%20Your%20Website!") anthonyveaudry@gmail.com
-          li
-            span Follow me on Twitter: 
-            a(href="https://twitter.com/anthonyveaudry") @anthonyveaudry
-          li
-            span Befriend me on Facebook: 
-            a(href="https://www.facebook.com/anthonyveaudry") @anthonyveaudry
-          li
-            span Critique me on Github: 
-            a(href="https://github.com/anthony0030") @anthony0030
+    div.animsition
+      header
+        include partials/header
+      main.flex
+        div.card
+          h1 Contact Me!
+          p Feel free<small><sup>*</sup></small> to contact me! 
+          ul.contact
+            li
+              span Call me: 
+              a(href="tel:+30-6948688704") +30 69486 88704
+            li
+              span Email me: 
+              a(href="mailto:anthonyveaudry@gmail.com?Subject=I%20Found%20Your%20Website!") anthonyveaudry@gmail.com
+            li
+              span Follow me on Twitter: 
+              a(href="https://twitter.com/anthonyveaudry") @anthonyveaudry
+            li
+              span Befriend me on Facebook: 
+              a(href="https://www.facebook.com/anthonyveaudry") @anthonyveaudry
+            li
+              span Critique me on Github: 
+              a(href="https://github.com/anthony0030") @anthony0030
 
     footer
       include partials/footer
