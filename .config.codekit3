@@ -7,7 +7,7 @@
 		"uuidString": "9A13AC89-A095-490D-A799-72F858D9CC5C"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -2077,6 +2077,7 @@
 	"\/source\/images\/places\/amsterdam.jpg": {
 		"ft": 16384,
 		"iS": 430585,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/images\/places\/amsterdam.jpg",
 		"oF": 0,
@@ -2087,6 +2088,7 @@
 	"\/source\/images\/places\/berlin.jpg": {
 		"ft": 16384,
 		"iS": 30249,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/images\/places\/berlin.jpg",
 		"oF": 0,
@@ -2097,6 +2099,7 @@
 	"\/source\/images\/places\/cyprus.jpg": {
 		"ft": 16384,
 		"iS": 7943,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/images\/places\/cyprus.jpg",
 		"oF": 0,
@@ -2107,6 +2110,7 @@
 	"\/source\/images\/places\/greece.jpg": {
 		"ft": 16384,
 		"iS": 65327,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/images\/places\/greece.jpg",
 		"oF": 0,
@@ -2117,6 +2121,7 @@
 	"\/source\/images\/places\/istanbul.jpg": {
 		"ft": 16384,
 		"iS": 288512,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/images\/places\/istanbul.jpg",
 		"oF": 3,
@@ -2127,6 +2132,7 @@
 	"\/source\/images\/places\/london.jpg": {
 		"ft": 16384,
 		"iS": 86771,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/images\/places\/london.jpg",
 		"oF": 0,
@@ -2137,6 +2143,7 @@
 	"\/source\/images\/places\/south_africa.jpg": {
 		"ft": 16384,
 		"iS": 11569,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/images\/places\/south_africa.jpg",
 		"oF": 0,
@@ -2147,6 +2154,7 @@
 	"\/source\/images\/thassos.jpg": {
 		"ft": 16384,
 		"iS": 65327,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/images\/thassos.jpg",
 		"oF": 0,
@@ -2199,6 +2207,42 @@
 		"oAP": "\/docs\/partials",
 		"oF": 0
 		},
+	"\/source\/partials\/footer.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/docs\/partials\/footer.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/partials\/head.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/docs\/partials\/head.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/partials\/header.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/docs\/partials\/header.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/partials\/main-nav.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/docs\/partials\/main-nav.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/source\/photos.jade": {
 		"cB": 0,
 		"cOD": 1,
@@ -2228,10 +2272,11 @@
 	},
 "projectAttributes": {
 	"creationDate": 529505745,
-	"displayValue": "techdegree-project-1",
+	"displayValue": "techdegree-project-01",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ron",
-	"lastBuiltDate": 542131934
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 553604823
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4034,6 +4079,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
