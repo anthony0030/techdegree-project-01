@@ -1763,12 +1763,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/docs\/docs",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -2322,7 +2316,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ron",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 553604823
+	"lastBuiltDate": 558538007
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
