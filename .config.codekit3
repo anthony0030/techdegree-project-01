@@ -17,12 +17,6 @@
 		"oAP": "/docs/.gitignore",
 		"oF": 1
 		},
-	"/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/docs/docs",
-		"oF": 0
-		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -612,7 +606,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-ron",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 560945917.91453099
+	"lastBuiltDate": 602171812.49310803
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
