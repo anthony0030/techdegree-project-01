@@ -1,11 +1,13 @@
 {
-  "name": "codekit-project",
+  "name": "techdegree-project-01",
   "version": "1.0.0",
-  "description": "CodeKit created this starter package.json file. You should customize it appropriately.",
-  "scripts": {},
-  "author": "",
+  "description": "Anthony Veaudry's Treehouse techdegree project 1",
+  "author": "Anthony Veaudry",
   "license": "UNLICENSED",
-  "repository": {},
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/anthony0030/techdegree-project-01"
+  },
   "dependencies": {
     "animsition": "^4.0.2",
     "jquery": "^3.4.1"
