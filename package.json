@@ -6,8 +6,8 @@
   "license": "UNLICENSED",
   "homepage": "https://anthony0030.github.io/techdegree-project-01",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/anthony0030/techdegree-project-01"
+    "type": "git",
+    "url": "https://github.com/anthony0030/techdegree-project-01"
   },
   "dependencies": {
     "animsition": "^4.0.2",
