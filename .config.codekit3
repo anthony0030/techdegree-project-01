@@ -382,9 +382,9 @@
 		},
 	"/source/favicon/manifest.json": {
 		"ft": 524288,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/docs/favicon/manifest-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -686,7 +686,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-ron",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 626084884.95883501
+	"lastBuiltDate": 629287937.81147397
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
