@@ -1,10 +1,5 @@
 var slideIndex = 1;
 
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("slide");
@@ -15,4 +10,8 @@ function showDivs(n) {
   }
   document.getElementById("country").innerHTML = x[slideIndex-1].title;
   x[slideIndex-1].style.display = "block";
+}
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
 }
