@@ -1,3 +1,4 @@
+/* eslint-disable eslint-plugin-no-unsafe-innerhtml */
 var slideIndex = 1;
 
 function showDivs(n) {
