@@ -1,34 +1,34 @@
 doctype html
 html(lang='en')
   head
-    include partials/head
+    include ./partials/_head.pug
   body
-    include partials/main-nav
+    include ./partials/_main-nav.pug
     div.animsition
       header
-        include partials/header
+        include ./partials/_header.pug
       main.flex
         div.card
           h1 Contact Me!
-          p Feel free<small><sup>*</sup></small> to contact me! 
+          p Feel free<small><sup>*</sup></small> to contact me!
           ul.contact
             li
-              span Call me: 
+              strong Call me:
               a(href="tel:+30-6948688704") +30 69486 88704
             li
-              span Email me: 
+              strong Email me:
               a(href="mailto:anthonyveaudry@gmail.com?Subject=I%20Found%20Your%20Website!") anthonyveaudry@gmail.com
             li
-              span Follow me on Twitter: 
+              strong Follow me on Twitter:
               a(href="https://twitter.com/anthonyveaudry") @anthonyveaudry
             li
-              span Befriend me on Facebook: 
+              strong Befriend me on Facebook:
               a(href="https://www.facebook.com/anthonyveaudry") @anthonyveaudry
             li
-              span Critique me on Github: 
+              strong Critique me on Github:
               a(href="https://github.com/anthony0030") @anthony0030
 
     footer
-      include partials/footer
+      include ./partials/_footer.pug
       script activeMenuItem("contact")
       span <small><sup>*</sup>The cost of the contacting is set by your I.S.P. !</small>

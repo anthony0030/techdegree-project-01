@@ -1,12 +1,12 @@
 doctype html
 html(lang='en')
   head
-    include partials/head
+    include ./partials/_head.pug
   body
-    include partials/main-nav
+    include ./partials/_main-nav.pug
     div.animsition
       header
-        include partials/header
+        include ./partials/_header.pug
       main.flex
         div.card
           h2 Background
@@ -26,5 +26,5 @@ html(lang='en')
           p
             | I am working for a web design firm helping clients create an impressive online presence and increase the tourism to the island of Thassos.
     footer
-      include partials/footer
+      include ./partials/_footer.pug
       script activeMenuItem("home")

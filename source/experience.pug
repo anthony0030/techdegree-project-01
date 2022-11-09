@@ -1,12 +1,12 @@
 doctype html
 html(lang='en')
   head
-    include partials/head
+    include ./partials/_head.pug
   body
-    include partials/main-nav
+    include ./partials/_main-nav.pug
     div.animsition
       header
-        include partials/header
+        include ./partials/_header.pug
       main.flex
         div.card
           h1 Experience
@@ -16,5 +16,5 @@ html(lang='en')
           p
           |  If you are reading this, you are on <em>my website</em> and you are asked <strong>not</strong> to refresh this page, because I don't want my server bill to go up!
     footer
-      include partials/footer
+      include ./partials/_footer.pug
       script activeMenuItem("experience")
