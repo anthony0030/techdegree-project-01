@@ -626,13 +626,13 @@
       "oF" : 0,
       "oS" : 0
     },
-    "\/source\/styles.sass" : {
+    "\/source\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
       "dP" : 10,
       "ec" : 1,
-      "ft" : 2,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/styles.css",
